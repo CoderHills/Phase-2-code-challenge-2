@@ -7,7 +7,7 @@ function App() {
   const [goals, setGoals] = useState([]);
 
   useEffect(() => {
-    fetch("https://json-server-vercel-1qb5ve7ju-coderhills-projects.vercel.app/")
+    fetch("https://json-server-vercel-red-delta.vercel.app")
       .then((r) => r.json())
       .then(setGoals);
   }, []);
